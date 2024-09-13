@@ -5,6 +5,8 @@
 
 The **AntiSwear** plugin is a comprehensive solution for Minecraft servers to filter and censor inappropriate language in player chat. It provides customizable word lists, regex support, and optional integration with the OpenAI API for advanced profanity detection.
 
+🎉 **Now available on Spigot!** Check out our [Spigot resource page](https://www.spigotmc.org/resources/antiswear.119577/) for more information and downloads.
+
 ## Features
 
 - **Censorship**: Automatically replaces banned words with a customizable censor character (e.g., `*`).
