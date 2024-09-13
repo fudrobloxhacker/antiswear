@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This plugin is a personal project developed in my free time. It may not be updated frequently unless there are significant bugs. Use at your own discretion.
+
 ## Overview
 
 The **AntiSwear** plugin is a comprehensive solution for Minecraft servers to filter and censor inappropriate language in player chat. It provides customizable word lists, regex support, and optional integration with the OpenAI API for advanced profanity detection.
