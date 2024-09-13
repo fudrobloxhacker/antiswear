@@ -1,10 +1,9 @@
-package wtf.pathos.antiswear.config;
+package wtf.pathos.antiswear.managers;
 
 import org.bukkit.configuration.file.YamlConfiguration;
 import wtf.pathos.antiswear.AntiSwearPlugin;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class WordListManager {

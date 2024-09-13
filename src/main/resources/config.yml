@@ -1,0 +1,16 @@
+# AntiSwear Configuration
+
+# Character used to censor banned words
+censor-character: "*"
+
+# Enable logging of censored messages
+enable-logging: true
+
+# Enable regex pattern matching
+enable-regex: true
+
+# OpenAI API Key for advanced filtering (leave empty to disable)
+openai-api-key: ""
+
+# Message sent to player when their message is censored
+censored-message: "&cYour message contained inappropriate language and was censored."

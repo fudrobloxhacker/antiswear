@@ -1,0 +1,11 @@
+# banned words
+banned-words:
+  - badword1
+  - badword2
+  - badword3
+
+# regex can b resource-intensive
+regex-patterns:
+  - '\bf+u+c+k+\b'
+  - '\bs+h+[i1]+t+\b'
+  - '\ba+s+s+(?:hole|wipe|hat)\b'

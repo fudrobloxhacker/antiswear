@@ -1,4 +1,4 @@
-package wtf.pathos.antiswear.config;
+package wtf.pathos.antiswear.managers;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import wtf.pathos.antiswear.AntiSwearPlugin;
@@ -17,11 +17,8 @@ public class ConfigManager {
     @ConfigValue(path = "enable-regex", defaultValue = "true")
     private boolean regexEnabled;
 
-    @ConfigValue(path = "violation-threshold", defaultValue = "3")
-    private int violationThreshold;
-
-    @ConfigValue(path = "punishment-command", defaultValue = "kick {player} Excessive profanity")
-    private String punishmentCommand;
+    @ConfigValue(path = "openai-api-key", defaultValue = "")
+    private String openAiKey;
 
     public ConfigManager(AntiSwearPlugin plugin) {
         this.plugin = plugin;
@@ -48,11 +45,5 @@ public class ConfigManager {
         return regexEnabled;
     }
 
-    public int getViolationThreshold() {
-        return violationThreshold;
-    }
-
-    public String getPunishmentCommand() {
-        return punishmentCommand;
-    }
+    public String getOpenAiKey() {return openAiKey;}
 }

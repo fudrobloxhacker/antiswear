@@ -1,6 +1,29 @@
-name: antiswear
+name: AntiSwear
 version: '1.0-SNAPSHOT'
-main: wtf.pathos.antiswear.Antiswear
+main: wtf.pathos.antiswear.AntiSwearPlugin
 api-version: '1.20'
-authors: [ lwes, pathos ]
-description: anticheat pluegin
+authors: [ pathos ]
+description: A comprehensive anti-swear plugin for Minecraft servers
+
+commands:
+  antiswear:
+    description: Main command for AntiSwear plugin
+    usage: /<command> <reload|add|remove> [word]
+    aliases: [aswear, noswear]
+
+permissions:
+  antiswear.use:
+    description: Allows use of all AntiSwear commands
+    default: op
+  antiswear.bypass:
+    description: Allows bypassing the swear filter
+    default: op
+  antiswear.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  antiswear.add:
+    description: Allows adding words to the banned list
+    default: op
+  antiswear.remove:
+    description: Allows removing words from the banned list
+    default: op
